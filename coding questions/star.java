@@ -7,7 +7,7 @@ public class star {
         //     }
         //     System.out.println();
         // }
-        int row=5;
+        int row=6;
         for(int i=0;i<row;i++){//0
             for(int j=(row-i);j>1;j--)//0
             {
