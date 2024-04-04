@@ -1,0 +1,46 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "star",
+      "request": "launch",
+      "mainClass": "star",
+      "projectName": "JunitTesting_d6566a91"
+    },
+    {
+      "type": "java",
+      "name": "PurchasedCourse",
+      "request": "launch",
+      "mainClass": "junit4.PurchasedCourse",
+      "projectName": "JunitTesting_d6566a91"
+    },
+    {
+      "type": "java",
+      "name": "Launch with -Xint",
+      "request": "launch",
+      "console": "integratedTerminal",
+      "vmArgs": "-Xint",
+      "mainClass": ""
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/prave/OneDrive/Desktop/JAVA/JunitTesting/junit5",
+      "program": "c:/Users/prave/OneDrive/Desktop/JAVA/JunitTesting/junit5/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
