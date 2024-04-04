@@ -17,6 +17,6 @@ public class Palindrome {
 
     public static void main(String[] args) {
         String str="raCecaR";
-        System.out.println(palindrome(str));    
+        System.out.println(palindrome(str)+"is the palendrome ");    
     }
 }
