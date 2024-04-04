@@ -1,0 +1,639 @@
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git status
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git init -b main
+Initialized empty Git repository in C:/Users/prave/OneDrive/Desktop/JAVA/.git/
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .vscode/
+        DSA/
+        JunitTesting/
+        basics/
+        coding questions/
+        lib/
+        telusko java/
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git add .
+warning: in the working copy of '.vscode/c_cpp_properties.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.vscode/launch.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.vscode/settings.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.vscode/tasks.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'JunitTesting/.vscode/c_cpp_properties.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'JunitTesting/.vscode/launch.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'JunitTesting/.vscode/settings.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'JunitTesting/.vscode/tasks.json', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git add . 
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git status      
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .vscode/c_cpp_properties.json
+        new file:   .vscode/launch.json
+        new file:   .vscode/settings.json
+        new file:   .vscode/tasks.json
+        new file:   DSA/LinearSrch.class
+        new file:   DSA/LinearSrch.java
+        new file:   JunitTesting/.vscode/c_cpp_properties.json
+        new file:   JunitTesting/.vscode/launch.json
+        new file:   JunitTesting/.vscode/settings.json
+        new file:   JunitTesting/.vscode/tasks.json
+        new file:   JunitTesting/junit1/Hello.java
+        new file:   JunitTesting/junit1/HelloTest.java
+        new file:   JunitTesting/junit2/j2.java
+        new file:   JunitTesting/junit2/j2Test.java
+        new file:   JunitTesting/junit3/Area.java
+        new file:   JunitTesting/junit3/AreaTest.java
+        new file:   JunitTesting/junit4/PurchasedCourse.java
+        new file:   JunitTesting/junit4/PurchasedCourseTest.java
+        new file:   JunitTesting/junit4/courses/JavaCourse.java
+        new file:   JunitTesting/junit4/courses/JunitCourse.java
+        new file:   JunitTesting/junit4/courses/SprinbootCourse.java
+        new file:   JunitTesting/junit4/courses/j4.java
+        new file:   JunitTesting/junit5/SortingArray.java
+        new file:   JunitTesting/junit5/SortingArrayTest.java
+        new file:   JunitTesting/junit5/j5.java
+        new file:   JunitTesting/junit6/SortingArray.java
+        new file:   JunitTesting/junit6/SortingArrayTest.java
+        new file:   JunitTesting/junit7/Area.java
+        new file:   JunitTesting/junit7/TestBeforeAfter.java
+        new file:   JunitTesting/lib/junit-platform-console-standalone-1.10.2.jar
+        new file:   basics/abstraction.java
+        new file:   basics/animal.java
+        new file:   basics/arraylist.java
+        new file:   basics/car.java
+        new file:   basics/casting.java
+        new file:   basics/constructer.java
+        new file:   basics/createfile.java
+        new file:   basics/datatypes.java
+        new file:   basics/date.java
+        new file:   basics/deletefile.java
+        new file:   basics/encapslation.java
+        new file:   basics/enums.java
+        new file:   basics/finall.java
+        new file:   basics/hashmaps.java
+        new file:   basics/hello.java
+        new file:   basics/input.java
+        new file:   basics/interfaces.java
+        new file:   basics/linkedlist.java
+        new file:   basics/loops.java
+        new file:   basics/methods.java
+        new file:   basics/objects.java
+        new file:   basics/objex.java
+        new file:   basics/readfile.java
+        new file:   basics/recursion.java
+        new file:   basics/threadextends.java
+        new file:   basics/threadimpliments.java
+        new file:   basics/throwexception.java
+        new file:   basics/trycatch.java
+        new file:   basics/writefile.java
+        new file:   coding questions/CountString.java
+        new file:   coding questions/Palindrome.java
+        new file:   coding questions/RemovRepeatingString.java
+        new file:   coding questions/RepeatingString.java
+        new file:   coding questions/ReverseString.java
+        new file:   coding questions/SecondLargest.java
+        new file:   coding questions/star.java
+        new file:   lib/junit-platform-console-standalone-1.10.2.jar
+        new file:   telusko java/Abstract.java
+        new file:   telusko java/Classes.java
+        new file:   telusko java/Comparator1.java
+        new file:   telusko java/Comparible.java
+        new file:   telusko java/Enum.java
+        new file:   telusko java/Functionalinterface.java
+        new file:   telusko java/Interfaces.java
+        new file:   telusko java/ObjectClass.java
+        new file:   telusko java/Sealed.java
+        new file:   telusko java/Static.java
+        new file:   telusko java/Streams.java
+        new file:   telusko java/Threads.java
+        new file:   telusko java/Throws.java
+        new file:   telusko java/TryCatch.java
+        new file:   telusko java/Wrapper.java
+        new file:   telusko java/array.java
+        new file:   telusko java/calci/Main.java
+        new file:   telusko java/calci/tools/AdCalc.java
+        new file:   telusko java/calci/tools/Calc.java
+        new file:   telusko java/calci/tools/Supercalc.java
+        new file:   telusko java/dimarray.java
+        new file:   telusko java/encapsulation.java
+        new file:   telusko java/naming
+        new file:   telusko java/string.java
+        new file:   telusko java/subsuper.java
+
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git commit -m "first commit"
+[main (root-commit) e879d70] first commit
+ 92 files changed, 2474 insertions(+)
+ create mode 100644 .vscode/c_cpp_properties.json
+ create mode 100644 .vscode/launch.json
+ create mode 100644 .vscode/settings.json
+ create mode 100644 .vscode/tasks.json
+ create mode 100644 DSA/LinearSrch.class
+ create mode 100644 DSA/LinearSrch.java
+ create mode 100644 JunitTesting/.vscode/c_cpp_properties.json
+ create mode 100644 JunitTesting/.vscode/launch.json
+ create mode 100644 JunitTesting/.vscode/settings.json
+ create mode 100644 JunitTesting/.vscode/tasks.json
+ create mode 100644 JunitTesting/junit1/Hello.java
+ create mode 100644 JunitTesting/junit1/HelloTest.java
+ create mode 100644 JunitTesting/junit2/j2.java
+ create mode 100644 JunitTesting/junit2/j2Test.java
+ create mode 100644 JunitTesting/junit3/Area.java
+ create mode 100644 JunitTesting/junit3/AreaTest.java
+ create mode 100644 JunitTesting/junit4/PurchasedCourse.java
+ create mode 100644 JunitTesting/junit4/PurchasedCourseTest.java
+ create mode 100644 JunitTesting/junit4/courses/JavaCourse.java
+ create mode 100644 JunitTesting/junit4/courses/JunitCourse.java
+ create mode 100644 JunitTesting/junit4/courses/SprinbootCourse.java
+ create mode 100644 JunitTesting/junit4/courses/j4.java
+ create mode 100644 JunitTesting/junit5/SortingArray.java
+ create mode 100644 JunitTesting/junit5/SortingArrayTest.java
+ create mode 100644 JunitTesting/junit5/j5.java
+ create mode 100644 JunitTesting/junit6/SortingArray.java
+ create mode 100644 JunitTesting/junit6/SortingArrayTest.java
+ create mode 100644 JunitTesting/junit7/Area.java
+ create mode 100644 JunitTesting/junit7/TestBeforeAfter.java
+ create mode 100644 JunitTesting/lib/junit-platform-console-standalone-1.10.2.jar
+ create mode 100644 basics/abstraction.java
+ create mode 100644 basics/animal.java
+ create mode 100644 basics/arraylist.java
+ create mode 100644 basics/car.java
+ create mode 100644 basics/casting.java
+ create mode 100644 basics/constructer.java
+ create mode 100644 basics/createfile.java
+ create mode 100644 basics/datatypes.java
+ create mode 100644 basics/date.java
+ create mode 100644 basics/deletefile.java
+ create mode 100644 basics/encapslation.java
+ create mode 100644 basics/enums.java
+ create mode 100644 basics/finall.java
+ create mode 100644 basics/hashmaps.java
+ create mode 100644 basics/hello.java
+ create mode 100644 basics/input.java
+ create mode 100644 basics/interfaces.java
+ create mode 100644 basics/linkedlist.java
+ create mode 100644 basics/loops.java
+ create mode 100644 basics/methods.java
+ create mode 100644 basics/objects.java
+ create mode 100644 basics/objex.java
+ create mode 100644 basics/readfile.java
+ create mode 100644 basics/recursion.java
+ create mode 100644 basics/threadextends.java
+ create mode 100644 basics/threadimpliments.java
+ create mode 100644 basics/throwexception.java
+ create mode 100644 basics/trycatch.java
+ create mode 100644 basics/writefile.java
+ create mode 100644 coding questions/CountString.java
+ create mode 100644 coding questions/Palindrome.java
+ create mode 100644 coding questions/RemovRepeatingString.java
+ create mode 100644 coding questions/RepeatingString.java
+ create mode 100644 coding questions/ReverseString.java
+ create mode 100644 coding questions/SecondLargest.java
+ create mode 100644 coding questions/star.java
+ create mode 100644 lib/junit-platform-console-standalone-1.10.2.jar
+ create mode 100644 telusko java/Abstract.java
+ create mode 100644 telusko java/Classes.java
+ create mode 100644 telusko java/Comparator1.java
+ create mode 100644 telusko java/Comparible.java
+ create mode 100644 telusko java/Enum.java
+ create mode 100644 telusko java/Functionalinterface.java
+ create mode 100644 telusko java/Interfaces.java
+ create mode 100644 telusko java/ObjectClass.java
+ create mode 100644 telusko java/Sealed.java
+ create mode 100644 telusko java/Static.java
+ create mode 100644 telusko java/Streams.java
+ create mode 100644 telusko java/Threads.java
+ create mode 100644 telusko java/Throws.java
+ create mode 100644 telusko java/TryCatch.java
+ create mode 100644 telusko java/Wrapper.java
+ create mode 100644 telusko java/array.java
+ create mode 100644 telusko java/calci/Main.java
+ create mode 100644 telusko java/calci/tools/AdCalc.java
+ create mode 100644 telusko java/calci/tools/Calc.java
+ create mode 100644 telusko java/calci/tools/Supercalc.java     
+ create mode 100644 telusko java/dimarray.java
+ create mode 100644 telusko java/encapsulation.java
+ create mode 100644 telusko java/naming
+ create mode 100644 telusko java/string.java
+ create mode 100644 telusko java/subsuper.java
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git log
+commit e879d70b3ed14663e4bbaca05d64bbbd66f418ef (HEAD -> main)  
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:07:11 2024 +0530
+
+    first commit
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)    
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   coding questions/star.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git add .
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git commit -m "second commit"
+[main a609ed4] second commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git log
+commit a609ed429ff7542f42f7fbdc1af812f068326f37 (HEAD -> main)
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:13:13 2024 +0530
+
+    second commit
+
+commit e879d70b3ed14663e4bbaca05d64bbbd66f418ef
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:07:11 2024 +0530
+
+    first commit
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git status
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git diff
+diff --git a/coding questions/Palindrome.java b/coding questions/Palindrome.java
+index 9b156a2..60ea9c9 100644
+--- a/coding questions/Palindrome.java
++++ b/coding questions/Palindrome.java
+@@ -17,6 +17,6 @@ public class Palindrome {
+
+     public static void main(String[] args) {
+         String str="raCecaR";
+-        System.out.println(palindrome(str));
++        System.out.println(palindrome(str)+"is the palendrome ");    
+     }
+ }
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git add .
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git diff 
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git diff --staged
+diff --git a/coding questions/Palindrome.java b/coding questions/Palindrome.java
+index 9b156a2..60ea9c9 100644
+--- a/coding questions/Palindrome.java
++++ b/coding questions/Palindrome.java
+@@ -17,6 +17,6 @@ public class Palindrome {
+
+     public static void main(String[] args) {
+         String str="raCecaR";
+-        System.out.println(palindrome(str));
++        System.out.println(palindrome(str)+"is the palendrome ");    
+     }
+ }
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   coding questions/Palindrome.java
+
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git commit -m "final" 
+[main 158181b] final
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git log 
+commit 158181b5b09d8c2fd91ab3696022333d7cbbe8cc (HEAD -> main)
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:21:10 2024 +0530
+
+    final
+
+commit a609ed429ff7542f42f7fbdc1af812f068326f37
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:13:13 2024 +0530
+
+    second commit
+
+commit e879d70b3ed14663e4bbaca05d64bbbd66f418ef
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:07:11 2024 +0530
+
+    first commit
+~
+~
+~
+~
+~
+~
+~
+~
+~
+Date:   Thu Apr 4 14:21:10 2024 +0530
+
+    final
+
+commit a609ed429ff7542f42f7fbdc1af812f068326f37
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:13:13 2024 +0530
+
+    second commit
+
+commit e879d70b3ed14663e4bbaca05d64bbbd66f418ef
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:07:11 2024 +0530
+
+    first commit
+~
+~
+~
+~
+~
+~
+~
+~
+~
+Date:   Thu Apr 4 14:21:10 2024 +0530
+
+    final
+
+commit a609ed429ff7542f42f7fbdc1af812f068326f37
+Author: M Praveen <praveenwppe@gmail.com>      
+Date:   Thu Apr 4 14:13:13 2024 +0530
+
+    second commit
+
+commit e879d70b3ed14663e4bbaca05d64bbbd66f418ef
+Author: M Praveen <praveenwppe@gmail.com>      
+Date:   Thu Apr 4 14:07:11 2024 +0530
+
+    first commit
+~
+~
+~
+~
+~
+~
+~
+~
+~
+Date:   Thu Apr 4 14:21:10 2024 +0530
+
+    final
+
+commit a609ed429ff7542f42f7fbdc1af812f068326f37
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:13:13 2024 +0530
+
+    second commit
+
+commit e879d70b3ed14663e4bbaca05d64bbbd66f418ef
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:07:11 2024 +0530
+
+    first commit
+~
+~
+~
+~
+~
+~
+~
+~
+~
+Date:   Thu Apr 4 14:21:10 2024 +0530
+
+    final
+
+commit a609ed429ff7542f42f7fbdc1af812f068326f37
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:13:13 2024 +0530
+
+    second commit
+
+commit e879d70b3ed14663e4bbaca05d64bbbd66f418ef
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:07:11 2024 +0530
+
+    first commit
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END)
+
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git log
+commit 158181b5b09d8c2fd91ab3696022333d7cbbe8cc (HEAD -> main)
+Author: M Praveen <praveenwppe@gmail.com>
+    final
+
+commit a609ed429ff7542f42f7fbdc1af812f068326f37
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:13:13 2024 +0530
+
+    second commit
+
+commit e879d70b3ed14663e4bbaca05d64bbbd66f418ef
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:07:11 2024 +0530
+
+    first commit
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        coding questions/SumOfSubString.java
+
+nothing added to commit but untracked files present (use "git add" to track) 
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git add . 
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   coding questions/SumOfSubString.java
+
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git commit -m "final1"
+[main 50f2b29] final1
+ 1 file changed, 3 insertions(+)
+ create mode 100644 coding questions/SumOfSubString.java
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git log 
+commit 50f2b29cb7ceb3198aa4b5cb45b4342632be5e40 (HEAD -> main)
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:26:15 2024 +0530
+
+    final1
+
+commit 158181b5b09d8c2fd91ab3696022333d7cbbe8cc
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:21:10 2024 +0530
+
+    final
+
+commit a609ed429ff7542f42f7fbdc1af812f068326f37
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:13:13 2024 +0530
+:...skipping...
+commit 50f2b29cb7ceb3198aa4b5cb45b4342632be5e40
+commit 50f2b29cb7ceb3198aa4b5cb45b4342632be5e40 (HEAD -> main)
+Author: M Praveen <praveenwppe@gmail.com>      
+Date:   Thu Apr 4 14:26:15 2024 +0530
+
+    final1
+
+commit 158181b5b09d8c2fd91ab3696022333d7cbbe8cc
+Author: M Praveen <praveenwppe@gmail.com>      
+Date:   Thu Apr 4 14:21:10 2024 +0530
+
+    final
+
+commit a609ed429ff7542f42f7fbdc1af812f068326f37
+Author: M Praveen <praveenwppe@gmail.com>      
+Date:   Thu Apr 4 14:13:13 2024 +0530
+
+    second commit
+
+commit e879d70b3ed14663e4bbaca05d64bbbd66f418ef
+Author: M Praveen <praveenwppe@gmail.com>      
+Date:   Thu Apr 4 14:07:11 2024 +0530
+
+    first commit
+commit 50f2b29cb7ceb3198aa4b5cb45b4342632be5e40 (HEAD -> main)
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:26:15 2024 +0530
+
+    final1
+
+commit 158181b5b09d8c2fd91ab3696022333d7cbbe8cc
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:21:10 2024 +0530
+
+    final
+
+commit a609ed429ff7542f42f7fbdc1af812f068326f37
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:13:13 2024 +0530
+
+    second commit
+
+commit e879d70b3ed14663e4bbaca05d64bbbd66f418ef
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:07:11 2024 +0530
+
+commit 50f2b29cb7ceb3198aa4b5cb45b4342632be5e40 (HEAD -> main)
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:26:15 2024 +0530
+
+    final1
+
+commit 158181b5b09d8c2fd91ab3696022333d7cbbe8cc
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:21:10 2024 +0530
+
+    final
+
+commit a609ed429ff7542f42f7fbdc1af812f068326f37
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:13:13 2024 +0530
+
+    second commit
+
+commit e879d70b3ed14663e4bbaca05d64bbbd66f418ef
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:07:11 2024 +0530
+
+    first commit
+~
+commit 50f2b29cb7ceb3198aa4b5cb45b4342632be5e40 (HEAD -> main)
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:26:15 2024 +0530
+
+    final1
+
+commit 158181b5b09d8c2fd91ab3696022333d7cbbe8cc
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:21:10 2024 +0530
+
+    final
+
+commit a609ed429ff7542f42f7fbdc1af812f068326f37
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:13:13 2024 +0530
+
+    second commit
+
+commit e879d70b3ed14663e4bbaca05d64bbbd66f418ef
+Author: M Praveen <praveenwppe@gmail.com>
+Date:   Thu Apr 4 14:07:11 2024 +0530
+
+    first commit
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END)
+
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git status
+On branch main
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    coding questions/CountString.java
+        deleted:    coding questions/Palindrome.java
+        deleted:    coding questions/RemovRepeatingString.java
+        deleted:    coding questions/RepeatingString.java
+        deleted:    coding questions/ReverseString.java
+        deleted:    coding questions/SecondLargest.java
+        deleted:    coding questions/SumOfSubString.java
+        deleted:    coding questions/star.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        codingquestions/
+
+ring.java -> codingquestions/CountString.java
+        renamed:    coding questions/Palindrome.java -> codingquestions/Palindrome.java
+        renamed:    coding questions/RemovRepeatingString.java -> codingquestions/RemovRepeatingString.java
+        renamed:    coding questions/RepeatingString.java -> codingquestions/RepeatingString.java
+        renamed:    coding questions/ReverseString.java -> codingquestions/ReverseString.java
+        renamed:    coding questions/SecondLargest.java -> codingquestions/SecondLargest.java
+        renamed:    coding questions/star.java -> codingquestions/star.java
+
+PS C:\Users\prave\OneDrive\Desktop\JAVA> git commit -m "deleted file"
+[main aeb60d3] deleted file
+ 8 files changed, 3 deletions(-)
+ delete mode 100644 coding questions/SumOfSubString.java
+ rename {coding questions => codingquestions}/CountString.java (100%)
+ rename {coding questions => codingquestions}/Palindrome.java (100%)
+ rename {coding questions => codingquestions}/RemovRepeatingString.java (100%)
+ rename {coding questions => codingquestions}/RepeatingString.java (100%)
+ rename {coding questions => codingquestions}/ReverseString.java (100%)
+ rename {coding questions => codingquestions}/SecondLargest.java (100%)
+ rename {coding questions => codingquestions}/star.java (100%)
+PS C:\Users\prave\OneDrive\Desktop\JAVA>
